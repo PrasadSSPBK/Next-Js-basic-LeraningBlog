@@ -67,6 +67,7 @@
 
 .grid {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
@@ -82,7 +83,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
+  width: 800px;
 }
 
 .card:hover,
@@ -126,4 +127,36 @@
   .logo img {
     filter: invert(1);
   }
+}
+
+.mainNav{
+  margin: 10px;
+  display: flex;
+  background-color: #222;
+  justify-content: space-between;
+  height: 150px;
+  border-radius: 10px;
+  /* background-image: url('/1.jpg'); */
+ 
+  background-size: cover;
+}
+.mainNav ul{
+  display: flex;
+justify-content: flex-end;
+  list-style-type: none;
+
+}
+.mainNav li{
+  margin: 0px 10px;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+}
+.a{
+  text-decoration: none;
+  color:crimson;
+font-weight: bold;
+font-style: italic;
+font-size: x-large;
+
 }
