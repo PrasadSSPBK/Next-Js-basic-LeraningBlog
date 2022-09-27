@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 10px;
 
 }
 .blogDetail{
@@ -17,7 +18,7 @@
     border: 2px solid chocolate;
     width: auto;
     padding: 10px;
-    margin-top: 10px;
+    margin: 10px;
 
   
     
@@ -60,3 +61,10 @@
     padding: 10px;
     font-weight: bolder;
 }
+@media (max-width: 500px) {
+    .first {
+        width: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    }

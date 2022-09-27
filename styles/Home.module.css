@@ -132,26 +132,41 @@
 .mainNav{
   margin: 10px;
   display: flex;
-  background-color: #222;
-  justify-content: space-between;
+ 
+  border:10px solid red;
+
+  justify-content: center;
   height: 150px;
   border-radius: 10px;
   /* background-image: url('/1.jpg'); */
  
   background-size: cover;
 }
+@media (max-width: 450px) {
+  .mainNav  {
+    width: 100vw;
+    
+  }
+}
+@media (max-width: 450px) {
+  .mainNav li {
+   padding: 5px;
+
+  }
+}
 .mainNav ul{
   display: flex;
-justify-content: flex-end;
+
   list-style-type: none;
 
 }
 .mainNav li{
-  margin: 0px 10px;
+ 
   font-weight: bold;
   font-size: 20px;
   padding: 20px;
 }
+
 .a{
   text-decoration: none;
   color:crimson;

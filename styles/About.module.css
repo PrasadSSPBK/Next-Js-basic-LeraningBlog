@@ -1,5 +1,5 @@
 .container {
-    padding: 0 2rem;
+  
     display: flex;
    flex-direction: column;
     align-items: center;
@@ -14,6 +14,12 @@
  width: 50vw;
  font-weight: bold;
  margin: 10px;
+}
+@media (max-width: 450px) {
+    .card {
+        width: 80vw;
+
+    }
 }
 .head{
     color:coral;

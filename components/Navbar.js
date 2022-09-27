@@ -7,10 +7,7 @@ const inage='/1.jpg'
 function Navbar() {
   return (
     <nav className={styles.mainNav}>
-      <div>
-        <Image src={inage} width={900}
-        height={180}/>
-      </div>
+      
       
         <ul>
           <li>
